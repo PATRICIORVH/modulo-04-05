@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Funciones Callback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Ejercicio Practico - Funciones Callback</h1>
+
+    <h2>Funcion 1: Validar Numero</h2>
+    <button onclick="validar_numero(callback1)">Validar Numero</button>
+    <div id="resultado1"></div>
+    <br><br>
+
+    <h2>Funcion 2: Calcular y Avisar Despues</h2>
+    <button onclick="calcular_y_avisar_despues(25, callback2)">Calcular (25)</button>
+    <div id="resultado2"></div>
+    <br><br>
+
+    <h2>Funcion 3: Calcular y Avisar Dependiendo</h2>
+    <button onclick="calcular_y_avisar_dependiendo(10, callback3, callbackError3)">Calcular (10)</button>
+    <div id="resultado3"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
